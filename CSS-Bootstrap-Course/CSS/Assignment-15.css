@@ -1,0 +1,29 @@
+h1 {
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(79, 15, 138);
+    text-shadow: 1px .5px 4px rgba(0,0,0,0.6);
+    text-align:center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(23, 13, 33);
+    text-shadow: 1px .5px 1px rgba(0,0,0,0.6);
+    text-align:center;
+}
+
+.container {
+    background-color: rgb(98, 224, 249);
+  }
+  
+  .container img {
+    mix-blend-mode:luminosity;
+  }
