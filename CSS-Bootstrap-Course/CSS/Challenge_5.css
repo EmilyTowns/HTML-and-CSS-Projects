@@ -44,6 +44,7 @@ th {
 }
 
 .container {
+    margin-top: 30px;
     position: relative;
     text-align: center;
     color: white;
@@ -58,4 +59,33 @@ th {
 
 h3 {
     text-align: center;
+}
+
+.form {
+    text-align: center;
+    margin-bottom: 100pt;
+    border-top: 1pt solid #00008B;
+    border-bottom: 1pt solid #00008B;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:  rgb(244, 230, 252);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float:left;
+    display: block;
+    color: #00008B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: rgb(238, 1, 255);
 }

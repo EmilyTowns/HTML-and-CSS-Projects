@@ -8,15 +8,23 @@
     </head>
     
     <body>
-        
-        <div class="container">
-            <img src="./Images/Thumb/Plant_haven_1.jpg" alt="Iris plant" class="center">
-            <div class="title"><h1>Plant Haven</h1></div>
+
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#plants">Plants</a>
+            <a href="#contact">Contact</a>
         </div>
-        <h3>We are your trusted source for plants, shipped right to your door!</h3>
-           
+        
+        <div id="home">
+            <div class="container">
+                <img src="./Images/Thumb/Plant_haven_1.jpg" alt="Iris plant" class="center">
+                <div class="title"><h1>Plant Haven</h1></div>
+            </div>
+            <h3>We are your trusted source for plants, shipped right to your door!</h3>
+        </div>
+
         <div class="table-container">
-            <h4>In-Season Plants</h4>
+            <h4 id="plants">In-Season Plants</h4>
             <table>
                 <tr>
                     <th>Plant Name</th>
@@ -48,6 +56,18 @@
                 </tr>
             </table>
         </div>
+
+        <h4 id="contact">Contact:</h4>
+        <form class="form">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="text">How can we help you?</label><br>
+            <input type="text" id="text" name="text">
+          </form>
         
         <footer>
             <div class="footer">
