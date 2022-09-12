@@ -139,6 +139,14 @@ h3 {
 }
 
 .video {
-    display: block;
+    position: relative;
     text-align: center;
+    color: white;
+}
+
+.video-text h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
