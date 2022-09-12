@@ -16,8 +16,9 @@ img {
 }
 
 .table-container {
-    border: 1pt solid black;
-    background-color: rgb(244, 230, 252);
+    text-align: center;
+    margin-bottom: 100pt;
+    border-top: 1pt solid #00008B;
 }
 
 h4 {
@@ -88,4 +89,20 @@ h3 {
 .navbar a:hover {
     background: #ddd;
     color: rgb(238, 1, 255);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height:fit-content;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column h4 {
+    color: #00008B;
 }
