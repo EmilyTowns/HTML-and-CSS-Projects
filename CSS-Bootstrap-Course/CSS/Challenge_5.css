@@ -14,3 +14,16 @@ img {
     text-align: center;
     font-weight: bold;
 }
+
+table, th, td {
+    border: 1px solid #00008B;
+    border-collapse: collapse;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    text-align: center;
+}
+
+th {
+    background-color:#00008B;
+    color: white;
+}
